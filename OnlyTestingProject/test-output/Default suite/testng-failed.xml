@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ExtentreportTestng">
+      <class name="Tests.DesiredCapabilities_Demo">
         <methods>
-          <include name="closedbrowser"/>
-          <include name="Extetntreportsetup"/>
-          <include name="browsersetup"/>
           <include name="teardown"/>
-          <include name="testexecution1"/>
+          <include name="Setupbrowser"/>
+          <include name="runtest"/>
         </methods>
-      </class> <!-- Tests.ExtentreportTestng -->
+      </class> <!-- Tests.DesiredCapabilities_Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
