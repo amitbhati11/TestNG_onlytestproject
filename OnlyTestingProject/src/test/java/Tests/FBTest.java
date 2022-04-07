@@ -10,10 +10,11 @@ import Pages.Fbloginpage;
 
 public class FBTest {
 	
-	WebDriver driver=null;
+	 WebDriver driver=null;
 	Fbloginpage fbloginpage;
-	@BeforeTest
 	
+	
+	@BeforeTest
 	public void browsersetup() {
 		
 		String path="C:\\Users\\Admin_SRV\\eclipse-workspace\\OnlyTestingProject\\drivers\\chromedriver.exe";
