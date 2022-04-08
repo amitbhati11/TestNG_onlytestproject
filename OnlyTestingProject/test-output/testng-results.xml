@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="55637" started-at="2022-04-07T18:09:49 IST" finished-at="2022-04-07T18:10:45 IST">
+  <suite name="Default suite" duration-ms="58607" started-at="2022-04-08T10:11:47 IST" finished-at="2022-04-08T10:12:46 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="55637" started-at="2022-04-07T18:09:49 IST" finished-at="2022-04-07T18:10:45 IST">
-      <class name="Tests.Testngxml_demo">
-        <test-method status="PASS" signature="chromebrowsersetup()[pri:0, instance:Tests.Testngxml_demo@19651f3]" name="chromebrowsersetup" is-config="true" duration-ms="9388" started-at="2022-04-07T18:09:50 IST" finished-at="2022-04-07T18:09:59 IST">
+    <test name="Default test" duration-ms="58607" started-at="2022-04-08T10:11:47 IST" finished-at="2022-04-08T10:12:46 IST">
+      <class name="Tests.PropertiesTestNGDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.PropertiesTestNGDemo@c1670b]" name="setup" is-config="true" duration-ms="25877" started-at="2022-04-08T10:11:47 IST" finished-at="2022-04-08T10:12:13 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chromebrowsersetup -->
-        <test-method status="PASS" signature="railwaysitetest()[pri:0, instance:Tests.Testngxml_demo@19651f3]" name="railwaysitetest" duration-ms="24903" started-at="2022-04-07T18:10:13 IST" finished-at="2022-04-07T18:10:37 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testexecution()[pri:0, instance:Tests.PropertiesTestNGDemo@c1670b]" name="testexecution" duration-ms="32523" started-at="2022-04-08T10:12:13 IST" finished-at="2022-04-08T10:12:46 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- railwaysitetest -->
-        <test-method status="PASS" signature="teardownchrome()[pri:0, instance:Tests.Testngxml_demo@19651f3]" name="teardownchrome" is-config="true" duration-ms="850" started-at="2022-04-07T18:10:42 IST" finished-at="2022-04-07T18:10:43 IST">
+        </test-method> <!-- testexecution -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.PropertiesTestNGDemo@c1670b]" name="teardown" is-config="true" duration-ms="143" started-at="2022-04-08T10:12:46 IST" finished-at="2022-04-08T10:12:46 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardownchrome -->
-      </class> <!-- Tests.Testngxml_demo -->
-      <class name="Tests.Testngxml_demo2">
-        <test-method status="PASS" signature="Firefoxbrowsersetup()[pri:0, instance:Tests.Testngxml_demo2@bc8ab5]" name="Firefoxbrowsersetup" is-config="true" duration-ms="13552" started-at="2022-04-07T18:09:59 IST" finished-at="2022-04-07T18:10:12 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Firefoxbrowsersetup -->
-        <test-method status="PASS" signature="testraiwaybyfirefox1()[pri:0, instance:Tests.Testngxml_demo2@bc8ab5]" name="testraiwaybyfirefox1" duration-ms="29298" started-at="2022-04-07T18:10:13 IST" finished-at="2022-04-07T18:10:42 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testraiwaybyfirefox1 -->
-        <test-method status="PASS" signature="teardownFirefox()[pri:0, instance:Tests.Testngxml_demo2@bc8ab5]" name="teardownFirefox" is-config="true" duration-ms="2472" started-at="2022-04-07T18:10:43 IST" finished-at="2022-04-07T18:10:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownFirefox -->
-      </class> <!-- Tests.Testngxml_demo2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.PropertiesTestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
