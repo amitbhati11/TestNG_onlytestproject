@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40087" started-at="2022-04-09T08:44:57 IST" finished-at="2022-04-09T08:45:37 IST">
+  <suite name="Default suite" duration-ms="1398" started-at="2022-04-09T10:05:47 IST" finished-at="2022-04-09T10:05:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40087" started-at="2022-04-09T08:44:57 IST" finished-at="2022-04-09T08:45:37 IST">
-      <class name="Excelutils.DataProviderutils">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="setup" is-config="true" duration-ms="6439" started-at="2022-04-09T08:44:57 IST" finished-at="2022-04-09T08:45:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="7480" started-at="2022-04-09T08:45:05 IST" data-provider="test1" finished-at="2022-04-09T08:45:12 IST">
+    <test name="Default test" duration-ms="1398" started-at="2022-04-09T10:05:47 IST" finished-at="2022-04-09T10:05:48 IST">
+      <class name="Utils.Dataproviderutils">
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="3" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -26,8 +22,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2670" started-at="2022-04-09T08:45:12 IST" data-provider="test1" finished-at="2022-04-09T08:45:15 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -42,8 +38,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2689" started-at="2022-04-09T08:45:15 IST" data-provider="test1" finished-at="2022-04-09T08:45:18 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -58,8 +54,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2690" started-at="2022-04-09T08:45:18 IST" data-provider="test1" finished-at="2022-04-09T08:45:20 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -74,8 +70,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2660" started-at="2022-04-09T08:45:20 IST" data-provider="test1" finished-at="2022-04-09T08:45:23 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -90,8 +86,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2680" started-at="2022-04-09T08:45:23 IST" data-provider="test1" finished-at="2022-04-09T08:45:26 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -106,56 +102,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2650" started-at="2022-04-09T08:45:26 IST" data-provider="test1" finished-at="2022-04-09T08:45:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vibek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2668" started-at="2022-04-09T08:45:28 IST" data-provider="test1" finished-at="2022-04-09T08:45:31 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rutu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="2653" started-at="2022-04-09T08:45:31 IST" data-provider="test1" finished-at="2022-04-09T08:45:34 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nihal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="finaldata(java.lang.String, java.lang.String)[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="finaldata" duration-ms="3640" started-at="2022-04-09T08:45:34 IST" data-provider="test1" finished-at="2022-04-09T08:45:37 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="10" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
           <params>
             <param index="0">
               <value>
@@ -170,12 +118,56 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finaldata -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Excelutils.DataProviderutils@f41634]" name="teardown" is-config="true" duration-ms="64" started-at="2022-04-09T08:45:37 IST" finished-at="2022-04-09T08:45:37 IST">
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vibek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Excelutils.DataProviderutils -->
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nihal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rutu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+      </class> <!-- Utils.Dataproviderutils -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
