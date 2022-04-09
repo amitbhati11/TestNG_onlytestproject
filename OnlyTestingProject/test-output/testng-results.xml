@@ -1,173 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1398" started-at="2022-04-09T10:05:47 IST" finished-at="2022-04-09T10:05:48 IST">
+  <suite name="Suite" duration-ms="53698" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:14:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1398" started-at="2022-04-09T10:05:47 IST" finished-at="2022-04-09T10:05:48 IST">
-      <class name="Utils.Dataproviderutils">
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="3" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sonal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="53698" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:14:16 IST">
+      <class name="Listners.TestNGlistnerdemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test1" duration-ms="15" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tukal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test2" duration-ms="0" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sachin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test3" duration-ms="5" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vikash]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test4" duration-ms="5" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test4 -->
+      </class> <!-- Listners.TestNGlistnerdemo -->
+      <class name="Listners.TestNGlistnerdemo2">
+        <test-method status="PASS" signature="test5()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test5" duration-ms="5" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[suresh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test6" duration-ms="53600" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:14:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="10" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sabrina]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test7()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test7" duration-ms="5" started-at="2022-04-09T16:14:16 IST" finished-at="2022-04-09T16:14:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vibek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="test8()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test8" duration-ms="1" started-at="2022-04-09T16:14:16 IST" finished-at="2022-04-09T16:14:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nihal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:Utils.Dataproviderutils@113b13f]" name="testdata" duration-ms="0" started-at="2022-04-09T10:05:48 IST" data-provider="test1" finished-at="2022-04-09T10:05:48 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rutu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testdata -->
-      </class> <!-- Utils.Dataproviderutils -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test8 -->
+      </class> <!-- Listners.TestNGlistnerdemo2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
