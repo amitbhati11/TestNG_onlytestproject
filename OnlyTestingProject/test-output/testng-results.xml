@@ -1,29 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
+  <suite name="Suite" duration-ms="87269" started-at="2022-04-10T17:25:22 IST" finished-at="2022-04-10T17:26:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
-      <class name="Demo.TestPriority_demo">
-        <test-method status="PASS" signature="four()[pri:0, instance:Demo.TestPriority_demo@9273a8]" name="four" duration-ms="10" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
+    <test name="Testfirefox" duration-ms="36319" started-at="2022-04-10T17:25:22 IST" finished-at="2022-04-10T17:25:58 IST">
+      <class name="Demo.ParrlelbrowserTesting_demo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Demo.ParrlelbrowserTesting_demo@c8afef]" name="setup" is-config="true" duration-ms="23315" started-at="2022-04-10T17:25:22 IST" finished-at="2022-04-10T17:25:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- four -->
-        <test-method status="PASS" signature="one()[pri:0, instance:Demo.TestPriority_demo@9273a8]" name="one" duration-ms="0" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testexecution()[pri:0, instance:Demo.ParrlelbrowserTesting_demo@c8afef]" name="testexecution" duration-ms="8513" started-at="2022-04-10T17:25:45 IST" finished-at="2022-04-10T17:25:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="three()[pri:1, instance:Demo.TestPriority_demo@9273a8]" name="three" duration-ms="0" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
+        </test-method> <!-- testexecution -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Demo.ParrlelbrowserTesting_demo@c8afef]" name="closebrowser" is-config="true" duration-ms="4479" started-at="2022-04-10T17:25:53 IST" finished-at="2022-04-10T17:25:58 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- three -->
-        <test-method status="PASS" signature="two()[pri:1, instance:Demo.TestPriority_demo@9273a8]" name="two" duration-ms="5" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Demo.ParrlelbrowserTesting_demo -->
+    </test> <!-- Testfirefox -->
+    <test name="Testchrome" duration-ms="87269" started-at="2022-04-10T17:25:22 IST" finished-at="2022-04-10T17:26:49 IST">
+      <class name="Demo.ParrlelbrowserTesting_demo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Demo.ParrlelbrowserTesting_demo@bd213e]" name="setup" is-config="true" duration-ms="9225" started-at="2022-04-10T17:25:22 IST" finished-at="2022-04-10T17:25:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- two -->
-      </class> <!-- Demo.TestPriority_demo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testexecution()[pri:0, instance:Demo.ParrlelbrowserTesting_demo@bd213e]" name="testexecution" duration-ms="17837" started-at="2022-04-10T17:25:31 IST" finished-at="2022-04-10T17:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexecution -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Demo.ParrlelbrowserTesting_demo@bd213e]" name="closebrowser" is-config="true" duration-ms="60148" started-at="2022-04-10T17:25:49 IST" finished-at="2022-04-10T17:26:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Demo.ParrlelbrowserTesting_demo -->
+    </test> <!-- Testchrome -->
+  </suite> <!-- Suite -->
 </testng-results>
