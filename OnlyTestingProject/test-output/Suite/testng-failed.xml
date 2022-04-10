@@ -6,11 +6,12 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Listners.TestNGlistnerdemo">
+      <class name="Tests.DataprovidertestPages">
         <methods>
-          <include name="test2"/>
+          <include name="setup"/>
+          <include name="exceltest"/>
         </methods>
-      </class> <!-- Listners.TestNGlistnerdemo -->
+      </class> <!-- Tests.DataprovidertestPages -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

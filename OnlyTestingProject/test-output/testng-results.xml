@@ -1,47 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53698" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:14:16 IST">
+  <suite name="Suite" duration-ms="118882" started-at="2022-04-10T11:23:41 IST" finished-at="2022-04-10T11:25:39 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="53698" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:14:16 IST">
-      <class name="Listners.TestNGlistnerdemo">
-        <test-method status="PASS" signature="test1()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test1" duration-ms="15" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
+    <test name="Test" duration-ms="118882" started-at="2022-04-10T11:23:41 IST" finished-at="2022-04-10T11:25:39 IST">
+      <class name="Tests.DataprovidertestPages">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="setup" is-config="true" duration-ms="11683" started-at="2022-04-10T11:23:41 IST" finished-at="2022-04-10T11:23:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test2" duration-ms="0" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="6268" started-at="2022-04-10T11:23:53 IST" data-provider="testdata" finished-at="2022-04-10T11:24:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sonal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test3" duration-ms="5" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3756" started-at="2022-04-10T11:24:00 IST" data-provider="testdata" finished-at="2022-04-10T11:24:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tukal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:Listners.TestNGlistnerdemo@2b2c86]" name="test4" duration-ms="5" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3693" started-at="2022-04-10T11:24:03 IST" data-provider="testdata" finished-at="2022-04-10T11:24:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-      </class> <!-- Listners.TestNGlistnerdemo -->
-      <class name="Listners.TestNGlistnerdemo2">
-        <test-method status="PASS" signature="test5()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test5" duration-ms="5" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:13:23 IST">
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3741" started-at="2022-04-10T11:24:07 IST" data-provider="testdata" finished-at="2022-04-10T11:24:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method status="PASS" signature="test6()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test6" duration-ms="53600" started-at="2022-04-09T16:13:23 IST" finished-at="2022-04-09T16:14:16 IST">
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3668" started-at="2022-04-10T11:24:11 IST" data-provider="testdata" finished-at="2022-04-10T11:24:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method status="PASS" signature="test7()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test7" duration-ms="5" started-at="2022-04-09T16:14:16 IST" finished-at="2022-04-09T16:14:16 IST">
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3638" started-at="2022-04-10T11:24:15 IST" data-provider="testdata" finished-at="2022-04-10T11:24:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method status="PASS" signature="test8()[pri:0, instance:Listners.TestNGlistnerdemo2@11a67ec]" name="test8" duration-ms="1" started-at="2022-04-09T16:14:16 IST" finished-at="2022-04-09T16:14:16 IST">
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3676" started-at="2022-04-10T11:24:18 IST" data-provider="testdata" finished-at="2022-04-10T11:24:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vibek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test8 -->
-      </class> <!-- Listners.TestNGlistnerdemo2 -->
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3643" started-at="2022-04-10T11:24:22 IST" data-provider="testdata" finished-at="2022-04-10T11:24:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rutu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3654" started-at="2022-04-10T11:24:26 IST" data-provider="testdata" finished-at="2022-04-10T11:24:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nihal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="4438" started-at="2022-04-10T11:24:29 IST" data-provider="testdata" finished-at="2022-04-10T11:24:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sabrina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3684" started-at="2022-04-10T11:24:34 IST" data-provider="testdata" finished-at="2022-04-10T11:24:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shehzad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceltest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="teardown" is-config="true" duration-ms="62095" started-at="2022-04-10T11:24:37 IST" finished-at="2022-04-10T11:25:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.DataprovidertestPages -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
