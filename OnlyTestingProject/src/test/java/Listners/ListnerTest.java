@@ -26,7 +26,7 @@ public class ListnerTest implements ITestListener {
 
 	 	
 	    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {					
-	        // TODO Auto-generated method stub				
+	        System.out.println("#####test6"+result.getName());			
 	        		
 	    }		
 
