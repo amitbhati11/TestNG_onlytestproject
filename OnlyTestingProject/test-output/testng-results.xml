@@ -1,197 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="118882" started-at="2022-04-10T11:23:41 IST" finished-at="2022-04-10T11:25:39 IST">
+  <suite name="Default suite" duration-ms="90" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="118882" started-at="2022-04-10T11:23:41 IST" finished-at="2022-04-10T11:25:39 IST">
-      <class name="Tests.DataprovidertestPages">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="setup" is-config="true" duration-ms="11683" started-at="2022-04-10T11:23:41 IST" finished-at="2022-04-10T11:23:52 IST">
+    <test name="Default test" duration-ms="90" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
+      <class name="Demo.TestPriority_demo">
+        <test-method status="PASS" signature="four()[pri:0, instance:Demo.TestPriority_demo@9273a8]" name="four" duration-ms="10" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="6268" started-at="2022-04-10T11:23:53 IST" data-provider="testdata" finished-at="2022-04-10T11:24:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sonal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="one()[pri:0, instance:Demo.TestPriority_demo@9273a8]" name="one" duration-ms="0" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3756" started-at="2022-04-10T11:24:00 IST" data-provider="testdata" finished-at="2022-04-10T11:24:03 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tukal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="three()[pri:1, instance:Demo.TestPriority_demo@9273a8]" name="three" duration-ms="0" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3693" started-at="2022-04-10T11:24:03 IST" data-provider="testdata" finished-at="2022-04-10T11:24:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sachin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="two()[pri:1, instance:Demo.TestPriority_demo@9273a8]" name="two" duration-ms="5" started-at="2022-04-10T16:47:07 IST" finished-at="2022-04-10T16:47:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3741" started-at="2022-04-10T11:24:07 IST" data-provider="testdata" finished-at="2022-04-10T11:24:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vikash]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3668" started-at="2022-04-10T11:24:11 IST" data-provider="testdata" finished-at="2022-04-10T11:24:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3638" started-at="2022-04-10T11:24:15 IST" data-provider="testdata" finished-at="2022-04-10T11:24:18 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[suresh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3676" started-at="2022-04-10T11:24:18 IST" data-provider="testdata" finished-at="2022-04-10T11:24:22 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vibek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3643" started-at="2022-04-10T11:24:22 IST" data-provider="testdata" finished-at="2022-04-10T11:24:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rutu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3654" started-at="2022-04-10T11:24:26 IST" data-provider="testdata" finished-at="2022-04-10T11:24:29 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nihal]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="4438" started-at="2022-04-10T11:24:29 IST" data-provider="testdata" finished-at="2022-04-10T11:24:34 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sabrina]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="exceltest(java.lang.String, java.lang.String)[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="exceltest" duration-ms="3684" started-at="2022-04-10T11:24:34 IST" data-provider="testdata" finished-at="2022-04-10T11:24:37 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shehzad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exceltest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.DataprovidertestPages@1c27452]" name="teardown" is-config="true" duration-ms="62095" started-at="2022-04-10T11:24:37 IST" finished-at="2022-04-10T11:25:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Tests.DataprovidertestPages -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- two -->
+      </class> <!-- Demo.TestPriority_demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
