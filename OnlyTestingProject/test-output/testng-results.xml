@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="69" started-at="2022-04-11T10:01:32 IST" finished-at="2022-04-11T10:01:32 IST">
+  <suite name="Suite" duration-ms="73" started-at="2022-04-11T10:33:25 IST" finished-at="2022-04-11T10:33:25 IST">
     <groups>
-      <group name="regression">
-        <method signature="TestngGroupdemo.test2()[pri:0, instance:Demo.TestngGroupdemo@1b5cd00]" name="test2" class="Demo.TestngGroupdemo"/>
-      </group> <!-- regression -->
-      <group name="sainty">
-        <method signature="TestngGroupdemo.test1()[pri:0, instance:Demo.TestngGroupdemo@1b5cd00]" name="test1" class="Demo.TestngGroupdemo"/>
-        <method signature="TestngGroupdemo.test2()[pri:0, instance:Demo.TestngGroupdemo@1b5cd00]" name="test2" class="Demo.TestngGroupdemo"/>
-      </group> <!-- sainty -->
+      <group name="smoke2">
+        <method signature="Dependencytestng.test3()[pri:0, instance:Demo.Dependencytestng@1b5cd00]" name="test3" class="Demo.Dependencytestng"/>
+      </group> <!-- smoke2 -->
+      <group name="smoke1">
+        <method signature="Dependencytestng.test2()[pri:0, instance:Demo.Dependencytestng@1b5cd00]" name="test2" class="Demo.Dependencytestng"/>
+      </group> <!-- smoke1 -->
     </groups>
-    <test name="Test" duration-ms="69" started-at="2022-04-11T10:01:32 IST" finished-at="2022-04-11T10:01:32 IST">
-      <class name="Demo.TestngGroupdemo">
-        <test-method status="PASS" signature="test1()[pri:0, instance:Demo.TestngGroupdemo@1b5cd00]" name="test1" duration-ms="11" started-at="2022-04-11T10:01:32 IST" finished-at="2022-04-11T10:01:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:Demo.TestngGroupdemo@1b5cd00]" name="test2" duration-ms="1" started-at="2022-04-11T10:01:32 IST" finished-at="2022-04-11T10:01:32 IST">
+    <test name="Test" duration-ms="73" started-at="2022-04-11T10:33:25 IST" finished-at="2022-04-11T10:33:25 IST">
+      <class name="Demo.Dependencytestng">
+        <test-method status="PASS" signature="test2()[pri:0, instance:Demo.Dependencytestng@1b5cd00]" name="test2" duration-ms="11" started-at="2022-04-11T10:33:25 IST" finished-at="2022-04-11T10:33:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-      </class> <!-- Demo.TestngGroupdemo -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:Demo.Dependencytestng@1b5cd00]" name="test3" duration-ms="2" started-at="2022-04-11T10:33:25 IST" finished-at="2022-04-11T10:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Demo.Dependencytestng -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
