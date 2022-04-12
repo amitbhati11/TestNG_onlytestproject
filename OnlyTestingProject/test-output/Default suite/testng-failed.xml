@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.WebdriverWaitDemo">
+      <class name="Demo.FluentWaitdemo">
         <methods>
-          <include name="run"/>
+          <include name="test"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- Demo.WebdriverWaitDemo -->
+      </class> <!-- Demo.FluentWaitdemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
