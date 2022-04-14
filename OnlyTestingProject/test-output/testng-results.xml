@@ -1,55 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50032" started-at="2022-04-14T11:17:16 IST" finished-at="2022-04-14T11:18:06 IST">
+  <suite name="Default suite" duration-ms="80582" started-at="2022-04-14T16:31:03 IST" finished-at="2022-04-14T16:32:23 IST">
     <groups>
     </groups>
-    <test name="Testfirefox" duration-ms="46771" started-at="2022-04-14T11:17:16 IST" finished-at="2022-04-14T11:18:03 IST">
-      <class name="Alerts.Alertsdemo">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:Alerts.Alertsdemo@eeefeb]" name="setupbrowser" is-config="true" duration-ms="34317" started-at="2022-04-14T11:17:16 IST" finished-at="2022-04-14T11:17:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="80582" started-at="2022-04-14T16:31:03 IST" finished-at="2022-04-14T16:32:23 IST">
+      <class name="PageloadStretgy.Pageloadstretgy">
+        <test-method status="PASS" signature="setup()[pri:0, instance:PageloadStretgy.Pageloadstretgy@afc191]" name="setup" is-config="true" duration-ms="7490" started-at="2022-04-14T16:31:03 IST" finished-at="2022-04-14T16:31:10 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="testmethod()[pri:0, instance:Alerts.Alertsdemo@eeefeb]" name="testmethod" duration-ms="12383" started-at="2022-04-14T11:17:50 IST" finished-at="2022-04-14T11:18:03 IST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testmethod()[pri:0, instance:PageloadStretgy.Pageloadstretgy@afc191]" name="testmethod" duration-ms="12659" started-at="2022-04-14T16:31:10 IST" finished-at="2022-04-14T16:31:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testmethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Alerts.Alertsdemo@eeefeb]" name="teardown" is-config="true" duration-ms="1" started-at="2022-04-14T11:18:03 IST" finished-at="2022-04-14T11:18:03 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PageloadStretgy.Pageloadstretgy@afc191]" name="teardown" is-config="true" duration-ms="60376" started-at="2022-04-14T16:31:23 IST" finished-at="2022-04-14T16:32:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Alerts.Alertsdemo -->
-    </test> <!-- Testfirefox -->
-    <test name="Testchrome" duration-ms="50032" started-at="2022-04-14T11:17:16 IST" finished-at="2022-04-14T11:18:06 IST">
-      <class name="Alerts.Alertsdemo">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:Alerts.Alertsdemo@720b71]" name="setupbrowser" is-config="true" duration-ms="34337" started-at="2022-04-14T11:17:16 IST" finished-at="2022-04-14T11:17:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="testmethod()[pri:0, instance:Alerts.Alertsdemo@720b71]" name="testmethod" duration-ms="15649" started-at="2022-04-14T11:17:50 IST" finished-at="2022-04-14T11:18:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testmethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Alerts.Alertsdemo@720b71]" name="teardown" is-config="true" duration-ms="0" started-at="2022-04-14T11:18:06 IST" finished-at="2022-04-14T11:18:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Alerts.Alertsdemo -->
-    </test> <!-- Testchrome -->
-  </suite> <!-- Suite -->
+      </class> <!-- PageloadStretgy.Pageloadstretgy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
