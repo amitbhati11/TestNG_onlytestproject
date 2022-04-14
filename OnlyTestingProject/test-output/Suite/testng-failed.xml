@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="Listners.ListnerTest"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="Browser" value="Firefox"/>
+  <test thread-count="1" name="Testfirefox(failed)" parallel="tests">
     <classes>
-      <class name="Demo.Demoprovidedata">
+      <class name="Alerts.Alertsdemo">
         <methods>
           <include name="teardown"/>
-          <include name="setup"/>
-          <include name="finaldata" invocation-numbers="5"/>
+          <include name="setupbrowser"/>
+          <include name="testmethod"/>
         </methods>
-      </class> <!-- Demo.Demoprovidedata -->
+      </class> <!-- Alerts.Alertsdemo -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Testfirefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->
