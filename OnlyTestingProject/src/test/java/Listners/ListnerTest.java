@@ -40,17 +40,7 @@ public class ListnerTest implements ITestListener {
 	    public void onTestFailure(ITestResult result) {					
                 System.out.println("******test2"+result.getName());	
                 
-              /*  TakesScreenshot srcshot= (TakesScreenshot)driver;
-                File srcfile=srcshot.getScreenshotAs(OutputType.FILE);
-                File destfile=new File("C:\\Users\\Admin_SRV\\git\\TestNG_onlytestproject\\OnlyTestingProject\\target");
                 
-                try {
-					FileUtils.copyDirectory(srcfile, destfile);
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-					System.out.println();
-				}*/
 	    }		
 
 			

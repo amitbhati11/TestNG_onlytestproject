@@ -28,7 +28,7 @@ public class PropertiesFiledemo {
 			FileInputStream fis=new FileInputStream(configpath);
 			
 				prop.load(fis);
-			String Browser1=	prop.getProperty("browser");
+			String Browser1=prop.getProperty("browser");
 			PropertiesTestNGDemo.Browser=Browser1;
 			
 			System.out.println(Browser1);

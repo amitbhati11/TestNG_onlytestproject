@@ -33,8 +33,10 @@ public class Fbloginpage {
 	}
 	
 	public void testlogo() {
+	
 		
-		fblogo.isDisplayed();
+		 fblogo.isDisplayed();
+		 
 	}
 	
 	public void username(String name) {

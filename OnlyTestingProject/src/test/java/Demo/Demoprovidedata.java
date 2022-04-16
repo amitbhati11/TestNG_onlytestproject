@@ -1,10 +1,14 @@
 package Demo;
 
+import java.io.File;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +16,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -33,7 +38,7 @@ public class Demoprovidedata {
 		driver=new ChromeDriver();
 		
 //implicit wait
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				
 	}
 	
@@ -97,6 +102,28 @@ public class Demoprovidedata {
 		} return data;
 		      
 		
+	}
+	
+	@Test
+	
+	public void takescreenshot(ITestResult result) {
+		
+		
+		TakesScreenshot srcshot= (TakesScreenshot)driver;
+        File scrfile=srcshot.getScreenshotAs(OutputType.FILE);
+        File destfile=new File("C:/Users/Admin_SRV/git/TestNG_onlytestproject/OnlyTestingProject/Screenshot/faildtest.png");
+        
+        try {
+			FileUtils.copyDirectory(scrfile, destfile);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+			System.out.println(e.getCause());
+		}{
+			
+			
+		}
 	}
 	
 	@AfterTest

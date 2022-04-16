@@ -70,15 +70,15 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M6</version>
         <configuration>
-         <includes>
+         <!-- <includes>
         <include>Alertsdemo</include>
-        </includes> 
+        </includes> -->  
           <!-- <suiteXmlFiles>
             <suiteXmlFile>${testngFile}</suiteXmlFile>
           </suiteXmlFiles> -->
-           <!--  <suiteXmlFiles>
-            <suiteXmlFile>testngdp.xml</suiteXmlFile>
-          </suiteXmlFiles>  -->
+             <suiteXmlFiles>
+            <suiteXmlFile>testngdataprdemo1.xml</suiteXmlFile>
+          </suiteXmlFiles> 
         </configuration>
       </plugin>
    
