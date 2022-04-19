@@ -40,13 +40,13 @@ public class dropdown {
 			driver.get("http://only-testing-blog.blogspot.com/2013/09/test.html");
 			WebElement ele=driver.findElement(By.xpath("//option[text()='Russia']"));
 			ele.click();
-			Select st=new Select(ele);
+			/*Select st=new Select(ele);
 			st.selectByValue("RUS");
 			Thread.sleep(2000);
 			WebElement we=driver.findElement(By.xpath("//option[text()='Japan']"));
 			Thread.sleep(2000);
 			Select sb=new Select(we);
-			sb.selectByVisibleText("Japan");
+			sb.selectByVisibleText("Japan");*/
 			Thread.sleep(2000);
 			
 		}
@@ -56,7 +56,7 @@ public class dropdown {
 		public void teardown() {
 			System.out.println("done");
 			
-			//driver.close();
+			driver.close();
 		}
 		
 		

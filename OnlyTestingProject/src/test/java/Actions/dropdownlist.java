@@ -1,5 +1,6 @@
 package Actions;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -13,7 +14,7 @@ public class dropdownlist {
 	WebDriver driver;
 	@Test
 	
-	public void selectdropdownlist() throws InterruptedException {
+	public void selectdropdownlist() throws InterruptedException, Exception {
 		
 		String cpath="C:\\Users\\Admin_SRV\\git\\TestNG_onlytestproject\\OnlyTestingProject\\drivers\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", cpath);
@@ -62,11 +63,15 @@ public class dropdownlist {
 			if(list1.getText().equalsIgnoreCase("option 2")) {
 				
 				list1.click();
-				Thread.sleep(2000);
+				Thread.sleep(3000);
 				
 			}
+		//autoit	
+			driver.findElement(By.id("myfile")).click();
+			Runtime.getRuntime().exec("C:\\Users\\Admin_SRV\\Desktop\\Automation\\AutoIT\\Fileuploadscript.exe");
 			
-			driver.close();
+			Thread.sleep(3000);
+			//driver.close();
 		}
 	}
 
